@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#chart {
+  background-color: #F5F2EB;
+  border: 1px solid #CCC;
+}
+
+.bar {
+  shape-rendering: crispEdges;
+}
+
+.stateName{
+  background-color: rgb(0, 34, 107);
+}
+
+.stateListName{
+  background-color: rgb(35, 153, 221);
+}
+
+.Requirement{
+margin: 2rem;
+background-color:rgb(160, 52, 16);
+border-radius: 8px;
+font-weight: bold;
 }
